@@ -1,6 +1,6 @@
-FILEPATH = "/Users/DJcoding/Desktop/Python_Projects/web_app1/pythonProject/todos.txt"
+FILEPATH = "todos.txt"
 
-def get_todos(filepath="/Users/DJcoding/Desktop/Python_Projects/web_app1/pythonProject/todos.txt"):
+def get_todos(filepath="todos.txt"):
     """Read a text file
     and return the list of text files"""
 
@@ -11,7 +11,7 @@ def get_todos(filepath="/Users/DJcoding/Desktop/Python_Projects/web_app1/pythonP
 
 def write_todos(todos_arg, filepath="todos.txt"):
     """Write a todos item list in a text file"""
-    with open("/Users/DJcoding/Desktop/Python_Projects/web_app1/pythonProject/todos.txt", "w") as file_global:
+    with open("todos.txt", "w") as file_global:
         file_global.writelines(todos_arg)
 
 if __name__ == "__main__":
