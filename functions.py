@@ -5,7 +5,7 @@ def get_todos(filepath="todos.txt"):
     and return the list of text files"""
 
     with open(filepath, "r") as file_global:
-        todo_global = file_local.readlines()
+        todo_global = file_global.readlines()
     return todo_global
 
 
