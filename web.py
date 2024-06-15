@@ -8,8 +8,8 @@ def add_todo():
     todos.append(todo)
     functions.write_todos(todos)
 
-st.title("MY todo app")
-st.subheader("This is my todo app")
+st.title("MY to-do app")
+st.subheader("This is my to-do app")
 st.write("This app is to increase <b>your</b> productivity",
         unsafe_allow_html=True)
 
