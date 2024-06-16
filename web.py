@@ -19,7 +19,25 @@ if st.button('DJ'):
 else:
 
     print(" ")
+if st.button('Venkat'):
 
+    st.write('HI Venkat') #displayed when the button is clicked
+
+else:
+
+   print(" ")
+if st.button('Dhiraj'):
+
+    st.write('Hi Dhiraj') #displayed when the button is clicked
+
+else:
+
+    print(" ")
+if st.button('Alka'):
+
+    st.write('HI Alka') #displayed when the button is clicked
+
+else:
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
     if checkbox:
