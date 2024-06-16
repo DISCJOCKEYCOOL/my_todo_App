@@ -38,6 +38,10 @@ if st.button('Alka'):
     st.write('HI Alka') #displayed when the button is clicked
 
 else:
+
+    print(" ")
+
+
 for index, todo in enumerate(todos):
 checkbox = st.checkbox(todo, key=todo)
     if checkbox:
